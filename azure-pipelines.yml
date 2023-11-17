@@ -28,6 +28,7 @@ jobs:
 
   - script: |
       npm install --legacy-peer-deps
+      npm audit fix --force
       npm install --force
     displayName: 'Install and Build'
 
