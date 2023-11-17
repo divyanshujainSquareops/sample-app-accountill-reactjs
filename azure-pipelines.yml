@@ -26,6 +26,12 @@ jobs:
       checkLatest: true
 
   - script: |
+      npm install source-map-resolve
+      npm install source-map-url
+      npm install @material-ui/core@^4.11.2 react@^17.0.0
+      npm install @mui/lab
+      npm install @mui/material @mui/styles
+      npm install @mui/icons-material
       npm install --legacy-peer-deps
       npm install --force
     displayName: 'Install and Build'
