@@ -23,21 +23,10 @@ jobs:
 
   - task: NodeTool@0
     inputs:
-      versionSpec: '14.x'
+      versionSpec: '16.9.8'
       checkLatest: true
 
   - script: |
-      npm install @material-ui/core@^4.11.2 react@^17.0.0
-      npm install react-dom@^16.8.0
-      npm install react-dom@^17.0.0
-      npm install react-dom@^18.0.0
-      npm install @mui/material @mui/styles
-      npm install @mui/lab
-      npm install @mui/icons-material
-      npm install source-map-url
-      npm install source-map-resolve
-      npm install urix
-      npm install --save core-js@latest
       npm install --legacy-peer-deps
       npm install --force
     displayName: 'Install and Build'
