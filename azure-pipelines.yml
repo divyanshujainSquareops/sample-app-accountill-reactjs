@@ -28,6 +28,9 @@ jobs:
 
   - script: |
       npm install @material-ui/core@^4.11.2 react@^17.0.0
+      npm install react-dom@^16.8.0
+      npm install react-dom@^17.0.0
+      npm install react-dom@^18.0.0
       npm install @mui/material @mui/styles
       npm install @mui/lab
       npm install @mui/icons-material
