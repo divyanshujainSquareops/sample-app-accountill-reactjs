@@ -6,7 +6,6 @@ pr:
 
 jobs:
 - job: BuildAndDeploy
-  timeoutInMinutes: 60
   displayName: 'Build and Deploy Job'
   pool:
     name: Default
