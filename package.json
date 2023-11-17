@@ -65,7 +65,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/parser": "^7.15.2",
     "css-loader": "^6.2.0"
   }
 }
